@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_m0t",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "aas_ssis_SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[SalesLT].[Customer]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
